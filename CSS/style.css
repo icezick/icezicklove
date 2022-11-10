@@ -1,7 +1,7 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
-	min-width: 320px;
+	max-width: 320px;
 	background: #FFFF00;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -45,6 +45,12 @@ body {
 	-webkit-text-stroke: 0.9px black;
 	margin: 0px;
 	padding: 59px 91.5px 0px 91.5px;
+}
+
+@media (min-width: 350px){
+	.gender_selection {
+		padding: 250px 91.5px 0px 91.5px;
+	}
 }
 
 .gender_button-container {
